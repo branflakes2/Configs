@@ -1,0 +1,14 @@
+#ignore everything by default
+*
+
+!.gitignore
+!README.md
+!/home
+!/home/brian/
+!/home/brian/.config/
+!/home/brian/.config/*
+!/home/brian/.config/**/
+!/home/brian/.config/**/*
+!/home/brian/.Xresources
+/home/brian/.config/chromium/*
+/home/brian/.config/pulse/*
