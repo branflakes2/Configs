@@ -1,0 +1,92 @@
+##############
+!! Xft settings
+##############
+
+Xft.dpi:                    96
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+#################################
+!! Color settings
+#################################
+
+! special
+*foreground:   #a2a2a2
+*background:   #292929
+*cursorColor:  #a2a2a2
+
+! black
+*color0:       #4e4e4e
+*color8:       #777777
+
+! red
+*color1:       #a9635d
+*color9:       #ffbbb2
+
+! green
+*color2:       #468459
+*color10:      #9ddeaf
+
+! yellow
+*color3:       #84763d
+*color11:      #e0ce91
+
+! blue
+*color4:       #5879af
+*color12:      #b3d1ff
+
+! magenta
+*color5:       #9c6594
+*color13:      #fabdf0
+
+! cyan
+*color6:       #008592
+*color14:      #79e0ed
+
+! white
+*color7:       #cfcfcf
+*color15:      #ffffff
+
+################
+!! URXVT settings
+################
+
+URxvt.depth:                32
+URxvt.geometry:             90x30
+URxvt.loginShell:           true
+URxvt.internalBorder:       3
+URxvt.lineSpace:            0
+
+!! transparency - true or false (default)
+urxvt*transparent: true
+
+!! tint with any color; i.e., blue, red, tomato4, olivedrab2, etc.
+!!   some nice listings are at:
+!!     http://www.nisrv.com/drupal/?q=node/11
+!!     http://www.htmlgoodies.com/tutorials/colors/article.php/3478921
+URxvt*tintColor: #292929
+
+!! shading - 0 to 99 darkens, 101 to 200 lightens.
+!!   Don't use with tintColor; just use a darker or lighter color instead.
+!! URxvt*shading: 15
+
+URxvt*saveLines: 12000
+
+URxvt*foreground: #a2a2a2
+URxvt*background: #292929
+
+!! Monaco Linux font
+URxvt*font: xft:inconsolata:regular:pixelsize=16
+URxvt*boldFont: xft:inconsolata:bold:pixelsize=16
+URxvt*letterSpace: 0
+
+!! scrollbar - true (default) or false
+URxvt*scrollBar: false
+
+!! scrollbar position - left=false (default) or right=true
+URxvt*scrollBar_right: false
+
+!! scrollbar style - rxvt (default), plain, next, or xterm
+URxvt*scrollstyle: plain
